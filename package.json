@@ -1,0 +1,27 @@
+{
+  "name": "todolist",
+  "version": "1.0.0",
+  "description": "",
+  "main": "dom.js",
+  "dependencies": {},
+  "devDependencies": {
+    "nodemon": "^1.18.0",
+    "nyc": "^12.0.2",
+    "tape": "^4.9.1",
+    "tap-spec": "^5.0.0"},
+  "scripts": {
+    "test": "nodemon test.js | tap-spec",
+    "coverage": "nyc tape ./test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fac-14/teamcoolerweek-2.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/fac-14/teamcoolerweek-2/issues"
+  },
+  "homepage": "https://github.com/fac-14/teamcoolerweek-2#readme"
+}
