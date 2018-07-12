@@ -58,6 +58,13 @@
       // https://developer.mozilla.org/en-US/docs/Web/Events/submit
       // what does event.preventDefault do?
       event.preventDefault();
+
+      var x = document.getElementById("text-input").value;
+      if (x == "") {
+        alert("Please enter an item! :)");
+        return false;
+      };
+
       // what is inside event.target
       // event.target ....
       var fieldInput = event.target[0].value;
@@ -68,6 +75,9 @@
         description: fieldInput,
         done: false
       }
+
+      var form = document.getElementById("add-todo");
+      form.reset();
 
       // hint: todoFunctions.addTodo
       var newState = todoFunctions.addTodo(state, newObj);
