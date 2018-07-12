@@ -72,6 +72,7 @@ h1 {
 /* PRETTY STUFF */
 
 .sort {
+    background-color: #725AC1
     border: 2px solid white;
     width: 45%;
     font-weight: 500;
@@ -97,6 +98,7 @@ label {
 input[type=submit] {
     font-weight: 500;
     width: 45%;
+    background-color: #725AC1
 }
 
 input[type=submit]:hover {
