@@ -77,7 +77,7 @@ h1 {
     font-weight: 500;
 }
 
-.sort > button {
+button.sort {
    background-color: #725AC1
 }
 
