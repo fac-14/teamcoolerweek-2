@@ -33,6 +33,35 @@ section {
     display: flex;
 }
 
+
+h1 {
+    text-align: center;
+    font-size: 56px;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+section {
+    border: black solid 2px;
+    background-color: yellow;
+}
+
+#task {
+  min-height: 50vh;
+  min-width: 33%;
+  margin: 20px;
+}
+
+#add-todo {
+    margin: 20px;
+    background-color: pink;
+    display: flex;
+}
+
 form {
   display: flex;
   flex-direction: column;
