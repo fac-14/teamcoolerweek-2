@@ -76,6 +76,9 @@
         done: false
       }
 
+      var form = document.getElementById("add-todo");
+      form.reset();
+
       // hint: todoFunctions.addTodo
       var newState = todoFunctions.addTodo(state, newObj);
 
