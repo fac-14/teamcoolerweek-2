@@ -20,6 +20,8 @@
 
     // this adds the delete button
     var deleteButtonNode = document.createElement('button');
+    deleteButtonNode.className = "delete-button";
+    deleteButtonNode.innerHTML = "<img src=\"./img/multiply.svg\" class=\"delete\">"
     deleteButtonNode.addEventListener('click', function(event) {
       // event.preventDefault();
       var newState = todoFunctions.deleteTodo(state, todo.id);
@@ -29,6 +31,8 @@
 
     // add markTodo button
     var markButtonNode = document.createElement('button');
+    markButtonNode.className = "mark-button";
+    markButtonNode.innerHTML = "<img src=\"./img/checked.svg\" class=\"checked\">"
     markButtonNode.addEventListener('click', function(event) {
       var newState = todoFunctions.markTodo(state, todo.id);
       update(newState);
