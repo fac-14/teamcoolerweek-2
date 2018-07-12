@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>List.it</title>
     <link rel="stylesheet" href="./reset.css">
     <link rel="stylesheet" href="./style.css">
@@ -10,10 +10,10 @@
   <body>
 
     <header>
-      <h1>LIST IT </h1>
+      <h1><img src="./img/listit.svg" alt="List It To Do List"></h1>
     </header>
 
-    <button class="sort">SORT BY INCOMPLETE</button>
+    
 
     <div class="content">
 
@@ -21,7 +21,10 @@
         <form id="add-todo">
           <label for="input">What do you want to get done?</label>
           <input type="text" name="description" value="" id="text-input" required>
-          <input type="submit" name="submit" value="Submit" id="submit">
+          <div class="form-buttons">
+            <input type="submit" name="submit" value="Add" id="submit">
+            <button class="sort">SORT</button>
+        </div>
         </form>
       </section>
 

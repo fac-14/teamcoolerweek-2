@@ -4,70 +4,57 @@
     font-family: Quicksand, sans-serif;
     font-weight: 400;
     font-size: 2rem;
-    border-radius: 2%;
     text-transform: uppercase;
 }
 
 body {
   height: 100vh;
-  padding: 10% 15%;
-}
-
-h1 {
-    text-align: center;
-    font-size: 56px;
-    font-family: Quicksand, sans-serif;
+  padding: 5% 15%;
 }
 
 .content {
   display: flex;
   flex-direction: column;
   justify-content: center;
+  padding: 5% 5%;
+  min-height: 30vh;
+  min-width: 33%;
 }
 
-#task {
-  min-height: 50vh;
-  min-width: 33%;
-  margin: 20px;
+#task-list {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    padding: 5% 5%;
+    min-height: 30vh;
+    min-width: 33%;
 }
 
 #add-todo {
-    margin: 20px;
+    padding: 5% 5%;
     display: flex;
 }
 
-
-h1 {
-    text-align: center;
-    font-size: 56px;
-}
-
-.content {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-}
 
 form {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 20px;
-  height: 50vh;
+  padding: 5% 5%;
 }
 
 input {
   display: flex;
   flex-direction: column;
-  margin-top: 20px;
   border: 2px white solid;
   -webkit-appearence: none;
 }
 
 @media(min-width: 321px){
-  section {
-      min-width: 100%;
-  }
+    body {
+        height: 100vh;
+        padding: 5% 5%;
+      }
 
 }
 
@@ -75,14 +62,13 @@ h1 {
     text-align: center;
 }
 
-li {
-    display: flex;
-}
 
 /* PRETTY STUFF */
 
 .sort {
     border: 2px solid white;
+    width: 45%;
+    font-weight: 500;
 }
 
 /* FORM STYLING */
@@ -102,13 +88,20 @@ label {
     text-decoration: line-through;
 }
 
-input[type=text] {
-    border: 2px solid white;
+input[type=submit] {
+    font-weight: 500;
+    width: 45%;
 }
 
-input[type=text]:focus {
-    background-color: #ACA7D7;
+input[type=submit]:hover {
+    background: #ACA7D7;
+}
+
+input[type=text] {
     border: 2px solid white;
+    background-color: #ACA7D7;
+    padding: 2% 1%;
+    margin: 5% 0%;
 }
 
 /* IMAGE STYLING */
@@ -116,12 +109,22 @@ input[type=text]:focus {
 button {
     background: transparent;
     border: none;
+    font-weight: 700;
+}
+
+button:hover {
+    background: #ACA7D7;
 }
 
 .checked, .delete {
     background: transparent;
     fill: white;
     width: 50px;
+}
+
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
 }
 
 /* UL, LI, AND SPAN GRADIENT STYLING */
@@ -144,6 +147,8 @@ span {
     background-color: transparent;
     border: none;
     font-family: Quicksand, sans-serif;
+    font-size: 2rem;
+    padding: 2% 10%;
 }
 
 ul {
@@ -153,6 +158,15 @@ ul {
 
 li {
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    width: 100%;
+}
+
+.buttons-group {
+    display: flex;
+    background: transparent;
 }
 
 li:nth-child(17n + 1) {
