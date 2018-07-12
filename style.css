@@ -1,10 +1,22 @@
+* {
+    background-color: #725AC1;
+    color: white;
+    font-family: Quicksand, sans-serif;
+    font-weight: 400;
+    font-size: 2rem;
+    border-radius: 2%;
+    text-transform: uppercase;
+}
+
 body {
   height: 100vh;
+  padding: 10% 15%;
 }
 
 h1 {
     text-align: center;
     font-size: 56px;
+    font-family: Quicksand, sans-serif;
 }
 
 .content {
@@ -63,18 +75,23 @@ h1 {
     text-align: center;
 }
 
+li {
+    display: flex;
+}
+
 /* PRETTY STUFF */
 
-* {
-    background-color: #725AC1;
-    color: white;
-    font-family: Quicksand, sans-serif;
-    font-weight: 400;
-    font-size: 1rem;
-    border-radius: 2%;
+.sort {
+    border: 2px solid white;
 }
 
 /* FORM STYLING */
+
+label {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
@@ -126,6 +143,7 @@ button {
 span {
     background-color: transparent;
     border: none;
+    font-family: Quicksand, sans-serif;
 }
 
 ul {
