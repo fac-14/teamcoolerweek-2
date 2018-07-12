@@ -72,10 +72,13 @@ h1 {
 /* PRETTY STUFF */
 
 .sort {
-    background-color: #725AC1
     border: 2px solid white;
     width: 45%;
     font-weight: 500;
+}
+
+.sort > button {
+   background-color: #725AC1
 }
 
 /* FORM STYLING */
