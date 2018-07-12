@@ -15,6 +15,9 @@
       //we need to add an element inside it to create a description
       var span = document.createElement("SPAN");
       var text = document.createTextNode(todo.description);
+      if (todo.done == true) {
+        span.className="strike";
+      };
       span.appendChild(text);
       todoNode.appendChild(span);
 
@@ -35,12 +38,21 @@
     markButtonNode.innerHTML = "<img src=\"./img/checked.svg\" class=\"checked\">"
     markButtonNode.addEventListener('click', function(event) {
       var newState = todoFunctions.markTodo(state, todo.id);
+
       update(newState);
-      console.log(state);
+      
     });
     todoNode.appendChild(markButtonNode);
+    
+
+    // change colour
+
+    
 
     // add classes for css
+
+
+
 
     return todoNode;
   };
