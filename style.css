@@ -81,6 +81,10 @@ h1 {
     opacity: 1; /* Firefox */
 }
 
+.strike {
+    text-decoration: line-through;
+}
+
 input[type=text] {
     border: 2px solid white;
 }

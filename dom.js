@@ -15,6 +15,9 @@
       //we need to add an element inside it to create a description
       var span = document.createElement("SPAN");
       var text = document.createTextNode(todo.description);
+      if (todo.done == true) {
+        span.className = "strike";
+      }
       span.appendChild(text);
       todoNode.appendChild(span);
 
