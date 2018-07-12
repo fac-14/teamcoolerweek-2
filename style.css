@@ -1,7 +1,4 @@
 body {
-  font-family: monospace;
-  font-weight: 700px;
-  background-color: grey;
   height: 100vh;
 }
 
@@ -16,11 +13,6 @@ h1 {
   justify-content: center;
 }
 
-section {
-    border: black solid 2px;
-    background-color: red;
-}
-
 #task {
   min-height: 50vh;
   min-width: 33%;
@@ -29,7 +21,6 @@ section {
 
 #add-todo {
     margin: 20px;
-    background-color: pink;
     display: flex;
 }
 
@@ -43,23 +34,6 @@ h1 {
   display: flex;
   flex-direction: column;
   justify-content: center;
-}
-
-section {
-    border: black solid 2px;
-    background-color: yellow;
-}
-
-#task {
-  min-height: 50vh;
-  min-width: 33%;
-  margin: 20px;
-}
-
-#add-todo {
-    margin: 20px;
-    background-color: pink;
-    display: flex;
 }
 
 form {
@@ -75,16 +49,8 @@ input {
   flex-direction: column;
   margin-top: 20px;
   border: 2px white solid;
-  border-radius: 5px;
   -webkit-appearence: none;
-  background-color: lightblue;
-  font-size: 16px;
 }
-
-input[type=submit] {
-  font-size: 20px;
-}
-
 
 @media(min-width: 321px){
   section {
