@@ -72,9 +72,14 @@ h1 {
     font-weight: 400;
     font-size: 1rem;
     border-radius: 2%;
+    text-transform: uppercase;
 }
 
 /* FORM STYLING */
+
+.strike {
+    text-decoration: line-through;
+}
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
     color: white;
@@ -100,7 +105,7 @@ button {
 .checked, .delete {
     background: transparent;
     fill: white;
-    width: 50px;
+    width: 2rem;
 }
 
 /* UL, LI, AND SPAN GRADIENT STYLING */
