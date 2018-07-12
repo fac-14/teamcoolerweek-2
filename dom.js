@@ -22,6 +22,8 @@
       todoNode.appendChild(span);
 
     // this adds the delete button
+    var buttonsDiv = document.createElement('DIV');
+    buttonsDiv.className = "buttons-group";
     var deleteButtonNode = document.createElement('button');
     deleteButtonNode.className = "delete-button";
     deleteButtonNode.innerHTML = "<img src=\"./img/multiply.svg\" class=\"delete\">"
@@ -30,7 +32,8 @@
       var newState = todoFunctions.deleteTodo(state, todo.id);
       update(newState);
     });
-    todoNode.appendChild(deleteButtonNode);
+    buttonsDiv.appendChild(deleteButtonNode);
+    todoNode.appendChild(buttonsDiv);
 
     // add markTodo button
     var markButtonNode = document.createElement('button');
@@ -41,7 +44,8 @@
       update(newState);
       console.log(state);
     });
-    todoNode.appendChild(markButtonNode);
+    buttonsDiv.appendChild(markButtonNode);
+    todoNode.appendChild(buttonsDiv);
 
     // add classes for css
 
