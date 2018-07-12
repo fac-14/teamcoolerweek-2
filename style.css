@@ -78,7 +78,7 @@ h1 {
 }
 
 button.sort {
-   background-color: #725AC1
+   background: #725AC1;
 }
 
 /* FORM STYLING */
