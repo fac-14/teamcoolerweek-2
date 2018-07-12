@@ -72,6 +72,18 @@
     });
   }
 
+  // sort button
+  let sort = document.querySelector(".sort");
+
+  sort.addEventListener('click', function(event) {
+
+    event.preventDefault();
+
+    var newState = todoFunctions.sortTodos(state);
+    update(newState);
+  });
+
+
   // you should not need to change this function
   var update = function(newState) {
     state = newState;
