@@ -63,7 +63,7 @@ var todoFunctions = {
     sortTodos: function(todos, sortFunction) {
       let newArr = this.cloneArrayOfObjects(todos);
       return newArr.sort(function(a, b) {
-        return b.done - a.done;
+        return a.done - b.done;
       })
       // stretch goal! Do this last
       // should leave the input arguement todos unchanged (you can use cloneArrayOfObjects)

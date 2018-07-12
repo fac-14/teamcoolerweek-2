@@ -60,7 +60,6 @@
       event.preventDefault();
 
       var x = document.getElementById("text-input").value;
-      console.log(x);
       if (x == "") {
         alert("Please enter an item! :)");
         return false;
