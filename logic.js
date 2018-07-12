@@ -61,12 +61,29 @@ var todoFunctions = {
     },
 
     sortTodos: function(todos, sortFunction) {
+      let newArr = this.cloneArrayOfObjects(todos);
+      return newArr.sort(function(a, b) {
+        return b.done - a.done;
+      })
+      // stretch goal! Do this last
+      // should leave the input arguement todos unchanged (you can use cloneArrayOfObjects)
+      // sortFunction will have same signature as the sort function in array.sort
+      // hint: array.slice, array.sort
+    },
+
+    priorityTodos: function(todos, sortFunction) {
+      let newArr = this.cloneArrayOfObjects(todos);
+      return newArr.sort(function(a, b) {
+        return a.priority - b.priority;
+      })
       // stretch goal! Do this last
       // should leave the input arguement todos unchanged (you can use cloneArrayOfObjects)
       // sortFunction will have same signature as the sort function in array.sort
       // hint: array.slice, array.sort
     },
   };
+
+  
   
   
   // Why is this if statement necessary?
