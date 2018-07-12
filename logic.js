@@ -53,11 +53,11 @@ var todoFunctions = {
       let newArr = this.cloneArrayOfObjects(todos);
       let mapArr = newArr.map(function(item) { 
         if (item.id === idToMark) {
-          if (item.done === false)
-          item.done = true;
-        }
+           item.done = true;
+           return item;
+        } else return item;
       })
-      return newArr;
+      return mapArr;
     },
 
     sortTodos: function(todos, sortFunction) {
