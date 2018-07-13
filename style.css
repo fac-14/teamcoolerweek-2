@@ -77,6 +77,10 @@ h1 {
     font-weight: 500;
 }
 
+button.sort {
+   background: #725AC1;
+}
+
 /* FORM STYLING */
 
 label {
@@ -97,6 +101,7 @@ label {
 input[type=submit] {
     font-weight: 500;
     width: 45%;
+    background-color: #725AC1
 }
 
 input[type=submit]:hover {
