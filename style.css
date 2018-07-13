@@ -56,14 +56,6 @@ input {
   -webkit-appearence: none;
 }
 
-@media(min-width: 321px){
-    body {
-        height: 100vh;
-        padding: 5% 5%;
-      }
-
-}
-
 h1 {
     text-align: center;
 }
@@ -101,16 +93,17 @@ label {
 input[type=submit] {
     font-weight: 500;
     width: 45%;
-    background-color: #725AC1
+    background-color: #725AC1;
+    align-items: center;
 }
 
 input[type=submit]:hover {
-    background: #ACA7D7;
+    background: rgb(193, 189, 224);
 }
 
 input[type=text] {
     border: 2px solid white;
-    background-color: #ACA7D7;
+    background-color: rgb(146, 139, 206);
     padding: 2% 1%;
     margin: 5% 0%;
 }
@@ -146,7 +139,7 @@ button:hover {
 
 /* UL, LI, AND SPAN GRADIENT STYLING */
 
-/* 
+/*
 
 #0B0913
 #161226
@@ -254,6 +247,25 @@ li:nth-child(17n + 17) {
 background-color: #0B0913;
 }
 
+/* MOBILE STYLES */
+@media(min-width: 321px){
+    body {
+        height: 100vh;
+        padding: 5% 5%;
+      }
+ /* make type smaller - so the button text does not overflow */
+}
+
+/* smallest size */
+@media(min-width: 321px){
+    body {
+        height: 100vh;
+        padding: 5% 5%;
+      }
+
+}
+
+
 
 /* WEIRD SHIT - DO NOT CODE REVIEW, IT CAME FROM CODE PEN */
 
@@ -266,11 +278,11 @@ background-color: #0B0913;
     top: 0px;
     left: 0px;
   }
-  
+
   [class|="confetti"] {
     position: absolute;
   }
-  
+
   .confetti-0 {
     width: 4px;
     height: 1.6px;
@@ -283,14 +295,14 @@ background-color: #0B0913;
     -webkit-animation: drop-0 4.3739902093s 0.8469273536s infinite;
             animation: drop-0 4.3739902093s 0.8469273536s infinite;
   }
-  
+
   @-webkit-keyframes drop-0 {
     100% {
       top: 110%;
       left: 40%;
     }
   }
-  
+
   @keyframes drop-0 {
     100% {
       top: 110%;
@@ -309,14 +321,14 @@ background-color: #0B0913;
     -webkit-animation: drop-1 4.1773157754s 0.4280065545s infinite;
             animation: drop-1 4.1773157754s 0.4280065545s infinite;
   }
-  
+
   @-webkit-keyframes drop-1 {
     100% {
       top: 110%;
       left: 87%;
     }
   }
-  
+
   @keyframes drop-1 {
     100% {
       top: 110%;
@@ -335,14 +347,14 @@ background-color: #0B0913;
     -webkit-animation: drop-2 4.4336590949s 0.331486376s infinite;
             animation: drop-2 4.4336590949s 0.331486376s infinite;
   }
-  
+
   @-webkit-keyframes drop-2 {
     100% {
       top: 110%;
       left: 103%;
     }
   }
-  
+
   @keyframes drop-2 {
     100% {
       top: 110%;
@@ -361,14 +373,14 @@ background-color: #0B0913;
     -webkit-animation: drop-3 4.1949460219s 0.6838900049s infinite;
             animation: drop-3 4.1949460219s 0.6838900049s infinite;
   }
-  
+
   @-webkit-keyframes drop-3 {
     100% {
       top: 110%;
       left: 99%;
     }
   }
-  
+
   @keyframes drop-3 {
     100% {
       top: 110%;
@@ -387,14 +399,14 @@ background-color: #0B0913;
     -webkit-animation: drop-4 4.8179744439s 0.6203251606s infinite;
             animation: drop-4 4.8179744439s 0.6203251606s infinite;
   }
-  
+
   @-webkit-keyframes drop-4 {
     100% {
       top: 110%;
       left: 50%;
     }
   }
-  
+
   @keyframes drop-4 {
     100% {
       top: 110%;
@@ -413,14 +425,14 @@ background-color: #0B0913;
     -webkit-animation: drop-5 4.0839483746s 0.91534804s infinite;
             animation: drop-5 4.0839483746s 0.91534804s infinite;
   }
-  
+
   @-webkit-keyframes drop-5 {
     100% {
       top: 110%;
       left: 12%;
     }
   }
-  
+
   @keyframes drop-5 {
     100% {
       top: 110%;
@@ -439,14 +451,14 @@ background-color: #0B0913;
     -webkit-animation: drop-6 4.3310693439s 0.5920315938s infinite;
             animation: drop-6 4.3310693439s 0.5920315938s infinite;
   }
-  
+
   @-webkit-keyframes drop-6 {
     100% {
       top: 110%;
       left: 37%;
     }
   }
-  
+
   @keyframes drop-6 {
     100% {
       top: 110%;
@@ -465,14 +477,14 @@ background-color: #0B0913;
     -webkit-animation: drop-7 4.0803618797s 0.5396016479s infinite;
             animation: drop-7 4.0803618797s 0.5396016479s infinite;
   }
-  
+
   @-webkit-keyframes drop-7 {
     100% {
       top: 110%;
       left: 52%;
     }
   }
-  
+
   @keyframes drop-7 {
     100% {
       top: 110%;
@@ -491,14 +503,14 @@ background-color: #0B0913;
     -webkit-animation: drop-8 4.0860332485s 0.3463482603s infinite;
             animation: drop-8 4.0860332485s 0.3463482603s infinite;
   }
-  
+
   @-webkit-keyframes drop-8 {
     100% {
       top: 110%;
       left: 47%;
     }
   }
-  
+
   @keyframes drop-8 {
     100% {
       top: 110%;
@@ -517,14 +529,14 @@ background-color: #0B0913;
     -webkit-animation: drop-9 4.7813508466s 0.1787529112s infinite;
             animation: drop-9 4.7813508466s 0.1787529112s infinite;
   }
-  
+
   @-webkit-keyframes drop-9 {
     100% {
       top: 110%;
       left: 97%;
     }
   }
-  
+
   @keyframes drop-9 {
     100% {
       top: 110%;
@@ -543,14 +555,14 @@ background-color: #0B0913;
     -webkit-animation: drop-10 4.0167259796s 0.0708519595s infinite;
             animation: drop-10 4.0167259796s 0.0708519595s infinite;
   }
-  
+
   @-webkit-keyframes drop-10 {
     100% {
       top: 110%;
       left: 68%;
     }
   }
-  
+
   @keyframes drop-10 {
     100% {
       top: 110%;
@@ -569,14 +581,14 @@ background-color: #0B0913;
     -webkit-animation: drop-11 4.5396768996s 0.1682254596s infinite;
             animation: drop-11 4.5396768996s 0.1682254596s infinite;
   }
-  
+
   @-webkit-keyframes drop-11 {
     100% {
       top: 110%;
       left: 111%;
     }
   }
-  
+
   @keyframes drop-11 {
     100% {
       top: 110%;
@@ -595,14 +607,14 @@ background-color: #0B0913;
     -webkit-animation: drop-12 4.7615380069s 0.2907761894s infinite;
             animation: drop-12 4.7615380069s 0.2907761894s infinite;
   }
-  
+
   @-webkit-keyframes drop-12 {
     100% {
       top: 110%;
       left: 8%;
     }
   }
-  
+
   @keyframes drop-12 {
     100% {
       top: 110%;
@@ -621,14 +633,14 @@ background-color: #0B0913;
     -webkit-animation: drop-13 4.7520256104s 0.3657408452s infinite;
             animation: drop-13 4.7520256104s 0.3657408452s infinite;
   }
-  
+
   @-webkit-keyframes drop-13 {
     100% {
       top: 110%;
       left: 80%;
     }
   }
-  
+
   @keyframes drop-13 {
     100% {
       top: 110%;
@@ -647,14 +659,14 @@ background-color: #0B0913;
     -webkit-animation: drop-14 4.5010469558s 0.2703559894s infinite;
             animation: drop-14 4.5010469558s 0.2703559894s infinite;
   }
-  
+
   @-webkit-keyframes drop-14 {
     100% {
       top: 110%;
       left: 49%;
     }
   }
-  
+
   @keyframes drop-14 {
     100% {
       top: 110%;
@@ -673,14 +685,14 @@ background-color: #0B0913;
     -webkit-animation: drop-15 4.9029553088s 0.0454234238s infinite;
             animation: drop-15 4.9029553088s 0.0454234238s infinite;
   }
-  
+
   @-webkit-keyframes drop-15 {
     100% {
       top: 110%;
       left: 63%;
     }
   }
-  
+
   @keyframes drop-15 {
     100% {
       top: 110%;
@@ -699,14 +711,14 @@ background-color: #0B0913;
     -webkit-animation: drop-16 4.4101125626s 0.5218098287s infinite;
             animation: drop-16 4.4101125626s 0.5218098287s infinite;
   }
-  
+
   @-webkit-keyframes drop-16 {
     100% {
       top: 110%;
       left: 52%;
     }
   }
-  
+
   @keyframes drop-16 {
     100% {
       top: 110%;
@@ -725,14 +737,14 @@ background-color: #0B0913;
     -webkit-animation: drop-17 4.2154923877s 0.8971199964s infinite;
             animation: drop-17 4.2154923877s 0.8971199964s infinite;
   }
-  
+
   @-webkit-keyframes drop-17 {
     100% {
       top: 110%;
       left: 63%;
     }
   }
-  
+
   @keyframes drop-17 {
     100% {
       top: 110%;
@@ -751,14 +763,14 @@ background-color: #0B0913;
     -webkit-animation: drop-18 4.098392379s 0.9519462577s infinite;
             animation: drop-18 4.098392379s 0.9519462577s infinite;
   }
-  
+
   @-webkit-keyframes drop-18 {
     100% {
       top: 110%;
       left: 74%;
     }
   }
-  
+
   @keyframes drop-18 {
     100% {
       top: 110%;
@@ -777,14 +789,14 @@ background-color: #0B0913;
     -webkit-animation: drop-19 4.8447046742s 0.5809729843s infinite;
             animation: drop-19 4.8447046742s 0.5809729843s infinite;
   }
-  
+
   @-webkit-keyframes drop-19 {
     100% {
       top: 110%;
       left: 57%;
     }
   }
-  
+
   @keyframes drop-19 {
     100% {
       top: 110%;
@@ -803,14 +815,14 @@ background-color: #0B0913;
     -webkit-animation: drop-20 4.0935545438s 0.2182346093s infinite;
             animation: drop-20 4.0935545438s 0.2182346093s infinite;
   }
-  
+
   @-webkit-keyframes drop-20 {
     100% {
       top: 110%;
       left: 44%;
     }
   }
-  
+
   @keyframes drop-20 {
     100% {
       top: 110%;
@@ -829,14 +841,14 @@ background-color: #0B0913;
     -webkit-animation: drop-21 4.5366769776s 0.7757567106s infinite;
             animation: drop-21 4.5366769776s 0.7757567106s infinite;
   }
-  
+
   @-webkit-keyframes drop-21 {
     100% {
       top: 110%;
       left: 102%;
     }
   }
-  
+
   @keyframes drop-21 {
     100% {
       top: 110%;
@@ -855,14 +867,14 @@ background-color: #0B0913;
     -webkit-animation: drop-22 4.6556762382s 0.8084812791s infinite;
             animation: drop-22 4.6556762382s 0.8084812791s infinite;
   }
-  
+
   @-webkit-keyframes drop-22 {
     100% {
       top: 110%;
       left: 94%;
     }
   }
-  
+
   @keyframes drop-22 {
     100% {
       top: 110%;
@@ -881,14 +893,14 @@ background-color: #0B0913;
     -webkit-animation: drop-23 4.5891532575s 0.7353053384s infinite;
             animation: drop-23 4.5891532575s 0.7353053384s infinite;
   }
-  
+
   @-webkit-keyframes drop-23 {
     100% {
       top: 110%;
       left: 19%;
     }
   }
-  
+
   @keyframes drop-23 {
     100% {
       top: 110%;
@@ -907,14 +919,14 @@ background-color: #0B0913;
     -webkit-animation: drop-24 4.5492937043s 0.4656684516s infinite;
             animation: drop-24 4.5492937043s 0.4656684516s infinite;
   }
-  
+
   @-webkit-keyframes drop-24 {
     100% {
       top: 110%;
       left: 43%;
     }
   }
-  
+
   @keyframes drop-24 {
     100% {
       top: 110%;
@@ -933,14 +945,14 @@ background-color: #0B0913;
     -webkit-animation: drop-25 4.3168703231s 0.5449810938s infinite;
             animation: drop-25 4.3168703231s 0.5449810938s infinite;
   }
-  
+
   @-webkit-keyframes drop-25 {
     100% {
       top: 110%;
       left: 41%;
     }
   }
-  
+
   @keyframes drop-25 {
     100% {
       top: 110%;
@@ -959,14 +971,14 @@ background-color: #0B0913;
     -webkit-animation: drop-26 4.5859202029s 0.8339523043s infinite;
             animation: drop-26 4.5859202029s 0.8339523043s infinite;
   }
-  
+
   @-webkit-keyframes drop-26 {
     100% {
       top: 110%;
       left: 74%;
     }
   }
-  
+
   @keyframes drop-26 {
     100% {
       top: 110%;
@@ -985,14 +997,14 @@ background-color: #0B0913;
     -webkit-animation: drop-27 4.2256029884s 0.639356503s infinite;
             animation: drop-27 4.2256029884s 0.639356503s infinite;
   }
-  
+
   @-webkit-keyframes drop-27 {
     100% {
       top: 110%;
       left: 60%;
     }
   }
-  
+
   @keyframes drop-27 {
     100% {
       top: 110%;
@@ -1011,14 +1023,14 @@ background-color: #0B0913;
     -webkit-animation: drop-28 4.5467642056s 0.1584658482s infinite;
             animation: drop-28 4.5467642056s 0.1584658482s infinite;
   }
-  
+
   @-webkit-keyframes drop-28 {
     100% {
       top: 110%;
       left: 69%;
     }
   }
-  
+
   @keyframes drop-28 {
     100% {
       top: 110%;
@@ -1037,14 +1049,14 @@ background-color: #0B0913;
     -webkit-animation: drop-29 4.8018725285s 0.7896852012s infinite;
             animation: drop-29 4.8018725285s 0.7896852012s infinite;
   }
-  
+
   @-webkit-keyframes drop-29 {
     100% {
       top: 110%;
       left: 87%;
     }
   }
-  
+
   @keyframes drop-29 {
     100% {
       top: 110%;
@@ -1063,14 +1075,14 @@ background-color: #0B0913;
     -webkit-animation: drop-30 4.8954929821s 0.5906827686s infinite;
             animation: drop-30 4.8954929821s 0.5906827686s infinite;
   }
-  
+
   @-webkit-keyframes drop-30 {
     100% {
       top: 110%;
       left: 72%;
     }
   }
-  
+
   @keyframes drop-30 {
     100% {
       top: 110%;
@@ -1089,14 +1101,14 @@ background-color: #0B0913;
     -webkit-animation: drop-31 4.2335119952s 0.4091917519s infinite;
             animation: drop-31 4.2335119952s 0.4091917519s infinite;
   }
-  
+
   @-webkit-keyframes drop-31 {
     100% {
       top: 110%;
       left: 37%;
     }
   }
-  
+
   @keyframes drop-31 {
     100% {
       top: 110%;
@@ -1115,14 +1127,14 @@ background-color: #0B0913;
     -webkit-animation: drop-32 4.7694239116s 0.8834690843s infinite;
             animation: drop-32 4.7694239116s 0.8834690843s infinite;
   }
-  
+
   @-webkit-keyframes drop-32 {
     100% {
       top: 110%;
       left: 50%;
     }
   }
-  
+
   @keyframes drop-32 {
     100% {
       top: 110%;
@@ -1141,14 +1153,14 @@ background-color: #0B0913;
     -webkit-animation: drop-33 4.9540026058s 0.1313704227s infinite;
             animation: drop-33 4.9540026058s 0.1313704227s infinite;
   }
-  
+
   @-webkit-keyframes drop-33 {
     100% {
       top: 110%;
       left: 74%;
     }
   }
-  
+
   @keyframes drop-33 {
     100% {
       top: 110%;
@@ -1167,14 +1179,14 @@ background-color: #0B0913;
     -webkit-animation: drop-34 4.5247820262s 0.321808332s infinite;
             animation: drop-34 4.5247820262s 0.321808332s infinite;
   }
-  
+
   @-webkit-keyframes drop-34 {
     100% {
       top: 110%;
       left: 90%;
     }
   }
-  
+
   @keyframes drop-34 {
     100% {
       top: 110%;
@@ -1193,14 +1205,14 @@ background-color: #0B0913;
     -webkit-animation: drop-35 4.658670799s 0.2962103285s infinite;
             animation: drop-35 4.658670799s 0.2962103285s infinite;
   }
-  
+
   @-webkit-keyframes drop-35 {
     100% {
       top: 110%;
       left: 74%;
     }
   }
-  
+
   @keyframes drop-35 {
     100% {
       top: 110%;
@@ -1219,14 +1231,14 @@ background-color: #0B0913;
     -webkit-animation: drop-36 4.8486699204s 0.3009667527s infinite;
             animation: drop-36 4.8486699204s 0.3009667527s infinite;
   }
-  
+
   @-webkit-keyframes drop-36 {
     100% {
       top: 110%;
       left: 110%;
     }
   }
-  
+
   @keyframes drop-36 {
     100% {
       top: 110%;
@@ -1245,14 +1257,14 @@ background-color: #0B0913;
     -webkit-animation: drop-37 4.3580118837s 0.3638201349s infinite;
             animation: drop-37 4.3580118837s 0.3638201349s infinite;
   }
-  
+
   @-webkit-keyframes drop-37 {
     100% {
       top: 110%;
       left: 68%;
     }
   }
-  
+
   @keyframes drop-37 {
     100% {
       top: 110%;
@@ -1271,14 +1283,14 @@ background-color: #0B0913;
     -webkit-animation: drop-38 4.4340592926s 0.3416517693s infinite;
             animation: drop-38 4.4340592926s 0.3416517693s infinite;
   }
-  
+
   @-webkit-keyframes drop-38 {
     100% {
       top: 110%;
       left: 66%;
     }
   }
-  
+
   @keyframes drop-38 {
     100% {
       top: 110%;
@@ -1297,14 +1309,14 @@ background-color: #0B0913;
     -webkit-animation: drop-39 4.7923523246s 0.8033940978s infinite;
             animation: drop-39 4.7923523246s 0.8033940978s infinite;
   }
-  
+
   @-webkit-keyframes drop-39 {
     100% {
       top: 110%;
       left: 19%;
     }
   }
-  
+
   @keyframes drop-39 {
     100% {
       top: 110%;
@@ -1323,14 +1335,14 @@ background-color: #0B0913;
     -webkit-animation: drop-40 4.015195449s 0.1348430065s infinite;
             animation: drop-40 4.015195449s 0.1348430065s infinite;
   }
-  
+
   @-webkit-keyframes drop-40 {
     100% {
       top: 110%;
       left: 48%;
     }
   }
-  
+
   @keyframes drop-40 {
     100% {
       top: 110%;
@@ -1349,14 +1361,14 @@ background-color: #0B0913;
     -webkit-animation: drop-41 4.2682405099s 0.3270012513s infinite;
             animation: drop-41 4.2682405099s 0.3270012513s infinite;
   }
-  
+
   @-webkit-keyframes drop-41 {
     100% {
       top: 110%;
       left: 85%;
     }
   }
-  
+
   @keyframes drop-41 {
     100% {
       top: 110%;
@@ -1375,14 +1387,14 @@ background-color: #0B0913;
     -webkit-animation: drop-42 4.5094462756s 0.0586669837s infinite;
             animation: drop-42 4.5094462756s 0.0586669837s infinite;
   }
-  
+
   @-webkit-keyframes drop-42 {
     100% {
       top: 110%;
       left: 29%;
     }
   }
-  
+
   @keyframes drop-42 {
     100% {
       top: 110%;
@@ -1401,14 +1413,14 @@ background-color: #0B0913;
     -webkit-animation: drop-43 4.9453037711s 0.4006757555s infinite;
             animation: drop-43 4.9453037711s 0.4006757555s infinite;
   }
-  
+
   @-webkit-keyframes drop-43 {
     100% {
       top: 110%;
       left: 23%;
     }
   }
-  
+
   @keyframes drop-43 {
     100% {
       top: 110%;
@@ -1427,14 +1439,14 @@ background-color: #0B0913;
     -webkit-animation: drop-44 4.8535574151s 0.1344355185s infinite;
             animation: drop-44 4.8535574151s 0.1344355185s infinite;
   }
-  
+
   @-webkit-keyframes drop-44 {
     100% {
       top: 110%;
       left: 76%;
     }
   }
-  
+
   @keyframes drop-44 {
     100% {
       top: 110%;
@@ -1453,14 +1465,14 @@ background-color: #0B0913;
     -webkit-animation: drop-45 4.1976312895s 0.1762167398s infinite;
             animation: drop-45 4.1976312895s 0.1762167398s infinite;
   }
-  
+
   @-webkit-keyframes drop-45 {
     100% {
       top: 110%;
       left: 81%;
     }
   }
-  
+
   @keyframes drop-45 {
     100% {
       top: 110%;
@@ -1479,14 +1491,14 @@ background-color: #0B0913;
     -webkit-animation: drop-46 4.4572463744s 0.585703624s infinite;
             animation: drop-46 4.4572463744s 0.585703624s infinite;
   }
-  
+
   @-webkit-keyframes drop-46 {
     100% {
       top: 110%;
       left: 99%;
     }
   }
-  
+
   @keyframes drop-46 {
     100% {
       top: 110%;
@@ -1505,14 +1517,14 @@ background-color: #0B0913;
     -webkit-animation: drop-47 4.3203833047s 0.4973731069s infinite;
             animation: drop-47 4.3203833047s 0.4973731069s infinite;
   }
-  
+
   @-webkit-keyframes drop-47 {
     100% {
       top: 110%;
       left: 38%;
     }
   }
-  
+
   @keyframes drop-47 {
     100% {
       top: 110%;
@@ -1531,14 +1543,14 @@ background-color: #0B0913;
     -webkit-animation: drop-48 4.6573106043s 0.4197815641s infinite;
             animation: drop-48 4.6573106043s 0.4197815641s infinite;
   }
-  
+
   @-webkit-keyframes drop-48 {
     100% {
       top: 110%;
       left: 30%;
     }
   }
-  
+
   @keyframes drop-48 {
     100% {
       top: 110%;
@@ -1557,14 +1569,14 @@ background-color: #0B0913;
     -webkit-animation: drop-49 4.2613329992s 0.8100690059s infinite;
             animation: drop-49 4.2613329992s 0.8100690059s infinite;
   }
-  
+
   @-webkit-keyframes drop-49 {
     100% {
       top: 110%;
       left: 95%;
     }
   }
-  
+
   @keyframes drop-49 {
     100% {
       top: 110%;
@@ -1583,14 +1595,14 @@ background-color: #0B0913;
     -webkit-animation: drop-50 4.3222410703s 0.1930818821s infinite;
             animation: drop-50 4.3222410703s 0.1930818821s infinite;
   }
-  
+
   @-webkit-keyframes drop-50 {
     100% {
       top: 110%;
       left: 100%;
     }
   }
-  
+
   @keyframes drop-50 {
     100% {
       top: 110%;
@@ -1609,14 +1621,14 @@ background-color: #0B0913;
     -webkit-animation: drop-51 4.8204686994s 0.128720805s infinite;
             animation: drop-51 4.8204686994s 0.128720805s infinite;
   }
-  
+
   @-webkit-keyframes drop-51 {
     100% {
       top: 110%;
       left: 93%;
     }
   }
-  
+
   @keyframes drop-51 {
     100% {
       top: 110%;
@@ -1635,14 +1647,14 @@ background-color: #0B0913;
     -webkit-animation: drop-52 4.3188998685s 0.8672035963s infinite;
             animation: drop-52 4.3188998685s 0.8672035963s infinite;
   }
-  
+
   @-webkit-keyframes drop-52 {
     100% {
       top: 110%;
       left: 68%;
     }
   }
-  
+
   @keyframes drop-52 {
     100% {
       top: 110%;
@@ -1661,14 +1673,14 @@ background-color: #0B0913;
     -webkit-animation: drop-53 4.6752303428s 0.0343838981s infinite;
             animation: drop-53 4.6752303428s 0.0343838981s infinite;
   }
-  
+
   @-webkit-keyframes drop-53 {
     100% {
       top: 110%;
       left: 103%;
     }
   }
-  
+
   @keyframes drop-53 {
     100% {
       top: 110%;
@@ -1687,14 +1699,14 @@ background-color: #0B0913;
     -webkit-animation: drop-54 4.263289461s 0.7095599217s infinite;
             animation: drop-54 4.263289461s 0.7095599217s infinite;
   }
-  
+
   @-webkit-keyframes drop-54 {
     100% {
       top: 110%;
       left: 98%;
     }
   }
-  
+
   @keyframes drop-54 {
     100% {
       top: 110%;
@@ -1713,14 +1725,14 @@ background-color: #0B0913;
     -webkit-animation: drop-55 4.3461009205s 0.4442814311s infinite;
             animation: drop-55 4.3461009205s 0.4442814311s infinite;
   }
-  
+
   @-webkit-keyframes drop-55 {
     100% {
       top: 110%;
       left: 69%;
     }
   }
-  
+
   @keyframes drop-55 {
     100% {
       top: 110%;
@@ -1739,14 +1751,14 @@ background-color: #0B0913;
     -webkit-animation: drop-56 4.9520594639s 0.9154250892s infinite;
             animation: drop-56 4.9520594639s 0.9154250892s infinite;
   }
-  
+
   @-webkit-keyframes drop-56 {
     100% {
       top: 110%;
       left: 51%;
     }
   }
-  
+
   @keyframes drop-56 {
     100% {
       top: 110%;
@@ -1765,14 +1777,14 @@ background-color: #0B0913;
     -webkit-animation: drop-57 4.0046150342s 0.6599081975s infinite;
             animation: drop-57 4.0046150342s 0.6599081975s infinite;
   }
-  
+
   @-webkit-keyframes drop-57 {
     100% {
       top: 110%;
       left: 73%;
     }
   }
-  
+
   @keyframes drop-57 {
     100% {
       top: 110%;
@@ -1791,14 +1803,14 @@ background-color: #0B0913;
     -webkit-animation: drop-58 4.6263804922s 0.9516842528s infinite;
             animation: drop-58 4.6263804922s 0.9516842528s infinite;
   }
-  
+
   @-webkit-keyframes drop-58 {
     100% {
       top: 110%;
       left: 17%;
     }
   }
-  
+
   @keyframes drop-58 {
     100% {
       top: 110%;
@@ -1817,14 +1829,14 @@ background-color: #0B0913;
     -webkit-animation: drop-59 4.1304748292s 0.7008938324s infinite;
             animation: drop-59 4.1304748292s 0.7008938324s infinite;
   }
-  
+
   @-webkit-keyframes drop-59 {
     100% {
       top: 110%;
       left: 55%;
     }
   }
-  
+
   @keyframes drop-59 {
     100% {
       top: 110%;
@@ -1843,14 +1855,14 @@ background-color: #0B0913;
     -webkit-animation: drop-60 4.8719293291s 0.5949007764s infinite;
             animation: drop-60 4.8719293291s 0.5949007764s infinite;
   }
-  
+
   @-webkit-keyframes drop-60 {
     100% {
       top: 110%;
       left: 70%;
     }
   }
-  
+
   @keyframes drop-60 {
     100% {
       top: 110%;
@@ -1869,14 +1881,14 @@ background-color: #0B0913;
     -webkit-animation: drop-61 4.8990686512s 0.6234842221s infinite;
             animation: drop-61 4.8990686512s 0.6234842221s infinite;
   }
-  
+
   @-webkit-keyframes drop-61 {
     100% {
       top: 110%;
       left: 13%;
     }
   }
-  
+
   @keyframes drop-61 {
     100% {
       top: 110%;
@@ -1895,14 +1907,14 @@ background-color: #0B0913;
     -webkit-animation: drop-62 4.349886726s 0.4000855319s infinite;
             animation: drop-62 4.349886726s 0.4000855319s infinite;
   }
-  
+
   @-webkit-keyframes drop-62 {
     100% {
       top: 110%;
       left: 57%;
     }
   }
-  
+
   @keyframes drop-62 {
     100% {
       top: 110%;
@@ -1921,14 +1933,14 @@ background-color: #0B0913;
     -webkit-animation: drop-63 4.5224342144s 0.4325934584s infinite;
             animation: drop-63 4.5224342144s 0.4325934584s infinite;
   }
-  
+
   @-webkit-keyframes drop-63 {
     100% {
       top: 110%;
       left: 31%;
     }
   }
-  
+
   @keyframes drop-63 {
     100% {
       top: 110%;
@@ -1947,14 +1959,14 @@ background-color: #0B0913;
     -webkit-animation: drop-64 4.4110135897s 0.4372995691s infinite;
             animation: drop-64 4.4110135897s 0.4372995691s infinite;
   }
-  
+
   @-webkit-keyframes drop-64 {
     100% {
       top: 110%;
       left: 37%;
     }
   }
-  
+
   @keyframes drop-64 {
     100% {
       top: 110%;
@@ -1973,14 +1985,14 @@ background-color: #0B0913;
     -webkit-animation: drop-65 4.2872959425s 0.1174166864s infinite;
             animation: drop-65 4.2872959425s 0.1174166864s infinite;
   }
-  
+
   @-webkit-keyframes drop-65 {
     100% {
       top: 110%;
       left: 92%;
     }
   }
-  
+
   @keyframes drop-65 {
     100% {
       top: 110%;
@@ -1999,14 +2011,14 @@ background-color: #0B0913;
     -webkit-animation: drop-66 4.4707930116s 0.2077587925s infinite;
             animation: drop-66 4.4707930116s 0.2077587925s infinite;
   }
-  
+
   @-webkit-keyframes drop-66 {
     100% {
       top: 110%;
       left: 88%;
     }
   }
-  
+
   @keyframes drop-66 {
     100% {
       top: 110%;
@@ -2025,14 +2037,14 @@ background-color: #0B0913;
     -webkit-animation: drop-67 4.1025279689s 0.5076543036s infinite;
             animation: drop-67 4.1025279689s 0.5076543036s infinite;
   }
-  
+
   @-webkit-keyframes drop-67 {
     100% {
       top: 110%;
       left: 22%;
     }
   }
-  
+
   @keyframes drop-67 {
     100% {
       top: 110%;
@@ -2051,14 +2063,14 @@ background-color: #0B0913;
     -webkit-animation: drop-68 4.3153556016s 0.8176555336s infinite;
             animation: drop-68 4.3153556016s 0.8176555336s infinite;
   }
-  
+
   @-webkit-keyframes drop-68 {
     100% {
       top: 110%;
       left: 96%;
     }
   }
-  
+
   @keyframes drop-68 {
     100% {
       top: 110%;
@@ -2077,14 +2089,14 @@ background-color: #0B0913;
     -webkit-animation: drop-69 4.1627383109s 0.5433131709s infinite;
             animation: drop-69 4.1627383109s 0.5433131709s infinite;
   }
-  
+
   @-webkit-keyframes drop-69 {
     100% {
       top: 110%;
       left: 89%;
     }
   }
-  
+
   @keyframes drop-69 {
     100% {
       top: 110%;
@@ -2103,14 +2115,14 @@ background-color: #0B0913;
     -webkit-animation: drop-70 4.201621086s 0.2982300268s infinite;
             animation: drop-70 4.201621086s 0.2982300268s infinite;
   }
-  
+
   @-webkit-keyframes drop-70 {
     100% {
       top: 110%;
       left: 39%;
     }
   }
-  
+
   @keyframes drop-70 {
     100% {
       top: 110%;
@@ -2129,14 +2141,14 @@ background-color: #0B0913;
     -webkit-animation: drop-71 4.0371841465s 0.68913412s infinite;
             animation: drop-71 4.0371841465s 0.68913412s infinite;
   }
-  
+
   @-webkit-keyframes drop-71 {
     100% {
       top: 110%;
       left: 40%;
     }
   }
-  
+
   @keyframes drop-71 {
     100% {
       top: 110%;
@@ -2155,14 +2167,14 @@ background-color: #0B0913;
     -webkit-animation: drop-72 4.8248726283s 0.6109115577s infinite;
             animation: drop-72 4.8248726283s 0.6109115577s infinite;
   }
-  
+
   @-webkit-keyframes drop-72 {
     100% {
       top: 110%;
       left: 68%;
     }
   }
-  
+
   @keyframes drop-72 {
     100% {
       top: 110%;
@@ -2181,14 +2193,14 @@ background-color: #0B0913;
     -webkit-animation: drop-73 4.3833287086s 0.0818227208s infinite;
             animation: drop-73 4.3833287086s 0.0818227208s infinite;
   }
-  
+
   @-webkit-keyframes drop-73 {
     100% {
       top: 110%;
       left: 79%;
     }
   }
-  
+
   @keyframes drop-73 {
     100% {
       top: 110%;
@@ -2207,14 +2219,14 @@ background-color: #0B0913;
     -webkit-animation: drop-74 4.6129413147s 0.4980807116s infinite;
             animation: drop-74 4.6129413147s 0.4980807116s infinite;
   }
-  
+
   @-webkit-keyframes drop-74 {
     100% {
       top: 110%;
       left: 50%;
     }
   }
-  
+
   @keyframes drop-74 {
     100% {
       top: 110%;
@@ -2233,14 +2245,14 @@ background-color: #0B0913;
     -webkit-animation: drop-75 4.6959518975s 0.3481018524s infinite;
             animation: drop-75 4.6959518975s 0.3481018524s infinite;
   }
-  
+
   @-webkit-keyframes drop-75 {
     100% {
       top: 110%;
       left: 43%;
     }
   }
-  
+
   @keyframes drop-75 {
     100% {
       top: 110%;
@@ -2259,14 +2271,14 @@ background-color: #0B0913;
     -webkit-animation: drop-76 4.8417399253s 0.5641955079s infinite;
             animation: drop-76 4.8417399253s 0.5641955079s infinite;
   }
-  
+
   @-webkit-keyframes drop-76 {
     100% {
       top: 110%;
       left: 62%;
     }
   }
-  
+
   @keyframes drop-76 {
     100% {
       top: 110%;
@@ -2285,14 +2297,14 @@ background-color: #0B0913;
     -webkit-animation: drop-77 4.9438991112s 0.4348158789s infinite;
             animation: drop-77 4.9438991112s 0.4348158789s infinite;
   }
-  
+
   @-webkit-keyframes drop-77 {
     100% {
       top: 110%;
       left: 105%;
     }
   }
-  
+
   @keyframes drop-77 {
     100% {
       top: 110%;
@@ -2311,14 +2323,14 @@ background-color: #0B0913;
     -webkit-animation: drop-78 4.0120389897s 0.2809174551s infinite;
             animation: drop-78 4.0120389897s 0.2809174551s infinite;
   }
-  
+
   @-webkit-keyframes drop-78 {
     100% {
       top: 110%;
       left: 18%;
     }
   }
-  
+
   @keyframes drop-78 {
     100% {
       top: 110%;
@@ -2337,14 +2349,14 @@ background-color: #0B0913;
     -webkit-animation: drop-79 4.441245125s 0.8778944886s infinite;
             animation: drop-79 4.441245125s 0.8778944886s infinite;
   }
-  
+
   @-webkit-keyframes drop-79 {
     100% {
       top: 110%;
       left: 9%;
     }
   }
-  
+
   @keyframes drop-79 {
     100% {
       top: 110%;
@@ -2363,14 +2375,14 @@ background-color: #0B0913;
     -webkit-animation: drop-80 4.9254777235s 0.6603715812s infinite;
             animation: drop-80 4.9254777235s 0.6603715812s infinite;
   }
-  
+
   @-webkit-keyframes drop-80 {
     100% {
       top: 110%;
       left: 81%;
     }
   }
-  
+
   @keyframes drop-80 {
     100% {
       top: 110%;
@@ -2389,14 +2401,14 @@ background-color: #0B0913;
     -webkit-animation: drop-81 4.1515360705s 0.0265057932s infinite;
             animation: drop-81 4.1515360705s 0.0265057932s infinite;
   }
-  
+
   @-webkit-keyframes drop-81 {
     100% {
       top: 110%;
       left: 40%;
     }
   }
-  
+
   @keyframes drop-81 {
     100% {
       top: 110%;
@@ -2415,14 +2427,14 @@ background-color: #0B0913;
     -webkit-animation: drop-82 4.8780902339s 0.889532609s infinite;
             animation: drop-82 4.8780902339s 0.889532609s infinite;
   }
-  
+
   @-webkit-keyframes drop-82 {
     100% {
       top: 110%;
       left: 93%;
     }
   }
-  
+
   @keyframes drop-82 {
     100% {
       top: 110%;
@@ -2441,14 +2453,14 @@ background-color: #0B0913;
     -webkit-animation: drop-83 4.3860444832s 0.6716749439s infinite;
             animation: drop-83 4.3860444832s 0.6716749439s infinite;
   }
-  
+
   @-webkit-keyframes drop-83 {
     100% {
       top: 110%;
       left: 27%;
     }
   }
-  
+
   @keyframes drop-83 {
     100% {
       top: 110%;
@@ -2467,14 +2479,14 @@ background-color: #0B0913;
     -webkit-animation: drop-84 4.184233827s 0.6026114907s infinite;
             animation: drop-84 4.184233827s 0.6026114907s infinite;
   }
-  
+
   @-webkit-keyframes drop-84 {
     100% {
       top: 110%;
       left: 107%;
     }
   }
-  
+
   @keyframes drop-84 {
     100% {
       top: 110%;
@@ -2493,14 +2505,14 @@ background-color: #0B0913;
     -webkit-animation: drop-85 4.0423967342s 0.9668017757s infinite;
             animation: drop-85 4.0423967342s 0.9668017757s infinite;
   }
-  
+
   @-webkit-keyframes drop-85 {
     100% {
       top: 110%;
       left: 75%;
     }
   }
-  
+
   @keyframes drop-85 {
     100% {
       top: 110%;
@@ -2519,14 +2531,14 @@ background-color: #0B0913;
     -webkit-animation: drop-86 4.8893869917s 0.5825995385s infinite;
             animation: drop-86 4.8893869917s 0.5825995385s infinite;
   }
-  
+
   @-webkit-keyframes drop-86 {
     100% {
       top: 110%;
       left: 73%;
     }
   }
-  
+
   @keyframes drop-86 {
     100% {
       top: 110%;
@@ -2545,14 +2557,14 @@ background-color: #0B0913;
     -webkit-animation: drop-87 4.4541834608s 0.1781109174s infinite;
             animation: drop-87 4.4541834608s 0.1781109174s infinite;
   }
-  
+
   @-webkit-keyframes drop-87 {
     100% {
       top: 110%;
       left: 96%;
     }
   }
-  
+
   @keyframes drop-87 {
     100% {
       top: 110%;
@@ -2571,14 +2583,14 @@ background-color: #0B0913;
     -webkit-animation: drop-88 4.414350502s 0.2150873547s infinite;
             animation: drop-88 4.414350502s 0.2150873547s infinite;
   }
-  
+
   @-webkit-keyframes drop-88 {
     100% {
       top: 110%;
       left: 78%;
     }
   }
-  
+
   @keyframes drop-88 {
     100% {
       top: 110%;
@@ -2597,14 +2609,14 @@ background-color: #0B0913;
     -webkit-animation: drop-89 4.000280234s 0.2285727561s infinite;
             animation: drop-89 4.000280234s 0.2285727561s infinite;
   }
-  
+
   @-webkit-keyframes drop-89 {
     100% {
       top: 110%;
       left: 38%;
     }
   }
-  
+
   @keyframes drop-89 {
     100% {
       top: 110%;
@@ -2623,14 +2635,14 @@ background-color: #0B0913;
     -webkit-animation: drop-90 4.4873089703s 0.1017670103s infinite;
             animation: drop-90 4.4873089703s 0.1017670103s infinite;
   }
-  
+
   @-webkit-keyframes drop-90 {
     100% {
       top: 110%;
       left: 96%;
     }
   }
-  
+
   @keyframes drop-90 {
     100% {
       top: 110%;
@@ -2649,14 +2661,14 @@ background-color: #0B0913;
     -webkit-animation: drop-91 4.1340521412s 0.0266795228s infinite;
             animation: drop-91 4.1340521412s 0.0266795228s infinite;
   }
-  
+
   @-webkit-keyframes drop-91 {
     100% {
       top: 110%;
       left: 52%;
     }
   }
-  
+
   @keyframes drop-91 {
     100% {
       top: 110%;
@@ -2675,14 +2687,14 @@ background-color: #0B0913;
     -webkit-animation: drop-92 4.5209030142s 0.9320810506s infinite;
             animation: drop-92 4.5209030142s 0.9320810506s infinite;
   }
-  
+
   @-webkit-keyframes drop-92 {
     100% {
       top: 110%;
       left: 63%;
     }
   }
-  
+
   @keyframes drop-92 {
     100% {
       top: 110%;
@@ -2701,14 +2713,14 @@ background-color: #0B0913;
     -webkit-animation: drop-93 4.7826925596s 0.3633046287s infinite;
             animation: drop-93 4.7826925596s 0.3633046287s infinite;
   }
-  
+
   @-webkit-keyframes drop-93 {
     100% {
       top: 110%;
       left: 88%;
     }
   }
-  
+
   @keyframes drop-93 {
     100% {
       top: 110%;
@@ -2727,14 +2739,14 @@ background-color: #0B0913;
     -webkit-animation: drop-94 4.8783704125s 0.3251804407s infinite;
             animation: drop-94 4.8783704125s 0.3251804407s infinite;
   }
-  
+
   @-webkit-keyframes drop-94 {
     100% {
       top: 110%;
       left: 112%;
     }
   }
-  
+
   @keyframes drop-94 {
     100% {
       top: 110%;
@@ -2753,14 +2765,14 @@ background-color: #0B0913;
     -webkit-animation: drop-95 4.8282721764s 0.780636549s infinite;
             animation: drop-95 4.8282721764s 0.780636549s infinite;
   }
-  
+
   @-webkit-keyframes drop-95 {
     100% {
       top: 110%;
       left: 82%;
     }
   }
-  
+
   @keyframes drop-95 {
     100% {
       top: 110%;
@@ -2779,14 +2791,14 @@ background-color: #0B0913;
     -webkit-animation: drop-96 4.2254725041s 0.4632044167s infinite;
             animation: drop-96 4.2254725041s 0.4632044167s infinite;
   }
-  
+
   @-webkit-keyframes drop-96 {
     100% {
       top: 110%;
       left: 102%;
     }
   }
-  
+
   @keyframes drop-96 {
     100% {
       top: 110%;
@@ -2805,14 +2817,14 @@ background-color: #0B0913;
     -webkit-animation: drop-97 4.6946173832s 0.7642623622s infinite;
             animation: drop-97 4.6946173832s 0.7642623622s infinite;
   }
-  
+
   @-webkit-keyframes drop-97 {
     100% {
       top: 110%;
       left: 95%;
     }
   }
-  
+
   @keyframes drop-97 {
     100% {
       top: 110%;
@@ -2831,14 +2843,14 @@ background-color: #0B0913;
     -webkit-animation: drop-98 4.8636429275s 0.2191176657s infinite;
             animation: drop-98 4.8636429275s 0.2191176657s infinite;
   }
-  
+
   @-webkit-keyframes drop-98 {
     100% {
       top: 110%;
       left: 69%;
     }
   }
-  
+
   @keyframes drop-98 {
     100% {
       top: 110%;
@@ -2857,14 +2869,14 @@ background-color: #0B0913;
     -webkit-animation: drop-99 4.8974418384s 0.8324773194s infinite;
             animation: drop-99 4.8974418384s 0.8324773194s infinite;
   }
-  
+
   @-webkit-keyframes drop-99 {
     100% {
       top: 110%;
       left: 86%;
     }
   }
-  
+
   @keyframes drop-99 {
     100% {
       top: 110%;
@@ -2883,14 +2895,14 @@ background-color: #0B0913;
     -webkit-animation: drop-100 4.907450158s 0.1585207793s infinite;
             animation: drop-100 4.907450158s 0.1585207793s infinite;
   }
-  
+
   @-webkit-keyframes drop-100 {
     100% {
       top: 110%;
       left: 38%;
     }
   }
-  
+
   @keyframes drop-100 {
     100% {
       top: 110%;
@@ -2909,14 +2921,14 @@ background-color: #0B0913;
     -webkit-animation: drop-101 4.2379942845s 0.9327931148s infinite;
             animation: drop-101 4.2379942845s 0.9327931148s infinite;
   }
-  
+
   @-webkit-keyframes drop-101 {
     100% {
       top: 110%;
       left: 16%;
     }
   }
-  
+
   @keyframes drop-101 {
     100% {
       top: 110%;
@@ -2935,14 +2947,14 @@ background-color: #0B0913;
     -webkit-animation: drop-102 4.8434460679s 0.4209058148s infinite;
             animation: drop-102 4.8434460679s 0.4209058148s infinite;
   }
-  
+
   @-webkit-keyframes drop-102 {
     100% {
       top: 110%;
       left: 95%;
     }
   }
-  
+
   @keyframes drop-102 {
     100% {
       top: 110%;
@@ -2961,14 +2973,14 @@ background-color: #0B0913;
     -webkit-animation: drop-103 4.6533185071s 0.3177998313s infinite;
             animation: drop-103 4.6533185071s 0.3177998313s infinite;
   }
-  
+
   @-webkit-keyframes drop-103 {
     100% {
       top: 110%;
       left: 94%;
     }
   }
-  
+
   @keyframes drop-103 {
     100% {
       top: 110%;
@@ -2987,14 +2999,14 @@ background-color: #0B0913;
     -webkit-animation: drop-104 4.7949002398s 0.8485957797s infinite;
             animation: drop-104 4.7949002398s 0.8485957797s infinite;
   }
-  
+
   @-webkit-keyframes drop-104 {
     100% {
       top: 110%;
       left: 13%;
     }
   }
-  
+
   @keyframes drop-104 {
     100% {
       top: 110%;
@@ -3013,14 +3025,14 @@ background-color: #0B0913;
     -webkit-animation: drop-105 4.9741147689s 0.4730757522s infinite;
             animation: drop-105 4.9741147689s 0.4730757522s infinite;
   }
-  
+
   @-webkit-keyframes drop-105 {
     100% {
       top: 110%;
       left: 90%;
     }
   }
-  
+
   @keyframes drop-105 {
     100% {
       top: 110%;
@@ -3039,14 +3051,14 @@ background-color: #0B0913;
     -webkit-animation: drop-106 4.1432695839s 0.4243482492s infinite;
             animation: drop-106 4.1432695839s 0.4243482492s infinite;
   }
-  
+
   @-webkit-keyframes drop-106 {
     100% {
       top: 110%;
       left: 74%;
     }
   }
-  
+
   @keyframes drop-106 {
     100% {
       top: 110%;
@@ -3065,14 +3077,14 @@ background-color: #0B0913;
     -webkit-animation: drop-107 4.5708500891s 0.0524722667s infinite;
             animation: drop-107 4.5708500891s 0.0524722667s infinite;
   }
-  
+
   @-webkit-keyframes drop-107 {
     100% {
       top: 110%;
       left: 61%;
     }
   }
-  
+
   @keyframes drop-107 {
     100% {
       top: 110%;
@@ -3091,14 +3103,14 @@ background-color: #0B0913;
     -webkit-animation: drop-108 4.7485263757s 0.6162292405s infinite;
             animation: drop-108 4.7485263757s 0.6162292405s infinite;
   }
-  
+
   @-webkit-keyframes drop-108 {
     100% {
       top: 110%;
       left: 69%;
     }
   }
-  
+
   @keyframes drop-108 {
     100% {
       top: 110%;
@@ -3117,14 +3129,14 @@ background-color: #0B0913;
     -webkit-animation: drop-109 4.5859642805s 0.3692269898s infinite;
             animation: drop-109 4.5859642805s 0.3692269898s infinite;
   }
-  
+
   @-webkit-keyframes drop-109 {
     100% {
       top: 110%;
       left: 6%;
     }
   }
-  
+
   @keyframes drop-109 {
     100% {
       top: 110%;
@@ -3143,14 +3155,14 @@ background-color: #0B0913;
     -webkit-animation: drop-110 4.1444396948s 0.1173483978s infinite;
             animation: drop-110 4.1444396948s 0.1173483978s infinite;
   }
-  
+
   @-webkit-keyframes drop-110 {
     100% {
       top: 110%;
       left: 88%;
     }
   }
-  
+
   @keyframes drop-110 {
     100% {
       top: 110%;
@@ -3169,14 +3181,14 @@ background-color: #0B0913;
     -webkit-animation: drop-111 4.7862086433s 0.7175207656s infinite;
             animation: drop-111 4.7862086433s 0.7175207656s infinite;
   }
-  
+
   @-webkit-keyframes drop-111 {
     100% {
       top: 110%;
       left: 74%;
     }
   }
-  
+
   @keyframes drop-111 {
     100% {
       top: 110%;
@@ -3195,14 +3207,14 @@ background-color: #0B0913;
     -webkit-animation: drop-112 4.725051904s 0.7384359401s infinite;
             animation: drop-112 4.725051904s 0.7384359401s infinite;
   }
-  
+
   @-webkit-keyframes drop-112 {
     100% {
       top: 110%;
       left: 51%;
     }
   }
-  
+
   @keyframes drop-112 {
     100% {
       top: 110%;
@@ -3221,14 +3233,14 @@ background-color: #0B0913;
     -webkit-animation: drop-113 4.9368658808s 0.371425139s infinite;
             animation: drop-113 4.9368658808s 0.371425139s infinite;
   }
-  
+
   @-webkit-keyframes drop-113 {
     100% {
       top: 110%;
       left: 85%;
     }
   }
-  
+
   @keyframes drop-113 {
     100% {
       top: 110%;
@@ -3247,14 +3259,14 @@ background-color: #0B0913;
     -webkit-animation: drop-114 4.1877908292s 0.0522260897s infinite;
             animation: drop-114 4.1877908292s 0.0522260897s infinite;
   }
-  
+
   @-webkit-keyframes drop-114 {
     100% {
       top: 110%;
       left: 103%;
     }
   }
-  
+
   @keyframes drop-114 {
     100% {
       top: 110%;
@@ -3273,14 +3285,14 @@ background-color: #0B0913;
     -webkit-animation: drop-115 4.833590083s 0.3612447083s infinite;
             animation: drop-115 4.833590083s 0.3612447083s infinite;
   }
-  
+
   @-webkit-keyframes drop-115 {
     100% {
       top: 110%;
       left: 32%;
     }
   }
-  
+
   @keyframes drop-115 {
     100% {
       top: 110%;
@@ -3299,14 +3311,14 @@ background-color: #0B0913;
     -webkit-animation: drop-116 4.5937100896s 0.0135122742s infinite;
             animation: drop-116 4.5937100896s 0.0135122742s infinite;
   }
-  
+
   @-webkit-keyframes drop-116 {
     100% {
       top: 110%;
       left: 78%;
     }
   }
-  
+
   @keyframes drop-116 {
     100% {
       top: 110%;
@@ -3325,14 +3337,14 @@ background-color: #0B0913;
     -webkit-animation: drop-117 4.6482775099s 0.686737456s infinite;
             animation: drop-117 4.6482775099s 0.686737456s infinite;
   }
-  
+
   @-webkit-keyframes drop-117 {
     100% {
       top: 110%;
       left: 98%;
     }
   }
-  
+
   @keyframes drop-117 {
     100% {
       top: 110%;
@@ -3351,14 +3363,14 @@ background-color: #0B0913;
     -webkit-animation: drop-118 4.6492512246s 0.3831035996s infinite;
             animation: drop-118 4.6492512246s 0.3831035996s infinite;
   }
-  
+
   @-webkit-keyframes drop-118 {
     100% {
       top: 110%;
       left: 112%;
     }
   }
-  
+
   @keyframes drop-118 {
     100% {
       top: 110%;
@@ -3377,14 +3389,14 @@ background-color: #0B0913;
     -webkit-animation: drop-119 4.4478401798s 0.210460995s infinite;
             animation: drop-119 4.4478401798s 0.210460995s infinite;
   }
-  
+
   @-webkit-keyframes drop-119 {
     100% {
       top: 110%;
       left: 92%;
     }
   }
-  
+
   @keyframes drop-119 {
     100% {
       top: 110%;
@@ -3403,14 +3415,14 @@ background-color: #0B0913;
     -webkit-animation: drop-120 4.5557959774s 0.9629336677s infinite;
             animation: drop-120 4.5557959774s 0.9629336677s infinite;
   }
-  
+
   @-webkit-keyframes drop-120 {
     100% {
       top: 110%;
       left: 60%;
     }
   }
-  
+
   @keyframes drop-120 {
     100% {
       top: 110%;
@@ -3429,14 +3441,14 @@ background-color: #0B0913;
     -webkit-animation: drop-121 4.6068808142s 0.4738124906s infinite;
             animation: drop-121 4.6068808142s 0.4738124906s infinite;
   }
-  
+
   @-webkit-keyframes drop-121 {
     100% {
       top: 110%;
       left: 21%;
     }
   }
-  
+
   @keyframes drop-121 {
     100% {
       top: 110%;
@@ -3455,14 +3467,14 @@ background-color: #0B0913;
     -webkit-animation: drop-122 4.3080648854s 0.0587474001s infinite;
             animation: drop-122 4.3080648854s 0.0587474001s infinite;
   }
-  
+
   @-webkit-keyframes drop-122 {
     100% {
       top: 110%;
       left: 61%;
     }
   }
-  
+
   @keyframes drop-122 {
     100% {
       top: 110%;
@@ -3481,14 +3493,14 @@ background-color: #0B0913;
     -webkit-animation: drop-123 4.0375830784s 0.7715316163s infinite;
             animation: drop-123 4.0375830784s 0.7715316163s infinite;
   }
-  
+
   @-webkit-keyframes drop-123 {
     100% {
       top: 110%;
       left: 4%;
     }
   }
-  
+
   @keyframes drop-123 {
     100% {
       top: 110%;
@@ -3507,14 +3519,14 @@ background-color: #0B0913;
     -webkit-animation: drop-124 4.5609624743s 0.6581055448s infinite;
             animation: drop-124 4.5609624743s 0.6581055448s infinite;
   }
-  
+
   @-webkit-keyframes drop-124 {
     100% {
       top: 110%;
       left: 16%;
     }
   }
-  
+
   @keyframes drop-124 {
     100% {
       top: 110%;
@@ -3533,14 +3545,14 @@ background-color: #0B0913;
     -webkit-animation: drop-125 4.2691662664s 0.3061394175s infinite;
             animation: drop-125 4.2691662664s 0.3061394175s infinite;
   }
-  
+
   @-webkit-keyframes drop-125 {
     100% {
       top: 110%;
       left: 96%;
     }
   }
-  
+
   @keyframes drop-125 {
     100% {
       top: 110%;
@@ -3559,14 +3571,14 @@ background-color: #0B0913;
     -webkit-animation: drop-126 4.5381053094s 0.0412660898s infinite;
             animation: drop-126 4.5381053094s 0.0412660898s infinite;
   }
-  
+
   @-webkit-keyframes drop-126 {
     100% {
       top: 110%;
       left: 72%;
     }
   }
-  
+
   @keyframes drop-126 {
     100% {
       top: 110%;
@@ -3585,14 +3597,14 @@ background-color: #0B0913;
     -webkit-animation: drop-127 4.4559377524s 0.5101003245s infinite;
             animation: drop-127 4.4559377524s 0.5101003245s infinite;
   }
-  
+
   @-webkit-keyframes drop-127 {
     100% {
       top: 110%;
       left: 40%;
     }
   }
-  
+
   @keyframes drop-127 {
     100% {
       top: 110%;
@@ -3611,14 +3623,14 @@ background-color: #0B0913;
     -webkit-animation: drop-128 4.6893942175s 0.7782324091s infinite;
             animation: drop-128 4.6893942175s 0.7782324091s infinite;
   }
-  
+
   @-webkit-keyframes drop-128 {
     100% {
       top: 110%;
       left: 36%;
     }
   }
-  
+
   @keyframes drop-128 {
     100% {
       top: 110%;
@@ -3637,14 +3649,14 @@ background-color: #0B0913;
     -webkit-animation: drop-129 4.1779670567s 0.8033142209s infinite;
             animation: drop-129 4.1779670567s 0.8033142209s infinite;
   }
-  
+
   @-webkit-keyframes drop-129 {
     100% {
       top: 110%;
       left: 83%;
     }
   }
-  
+
   @keyframes drop-129 {
     100% {
       top: 110%;
@@ -3663,14 +3675,14 @@ background-color: #0B0913;
     -webkit-animation: drop-130 4.6454454807s 0.9632439173s infinite;
             animation: drop-130 4.6454454807s 0.9632439173s infinite;
   }
-  
+
   @-webkit-keyframes drop-130 {
     100% {
       top: 110%;
       left: 55%;
     }
   }
-  
+
   @keyframes drop-130 {
     100% {
       top: 110%;
@@ -3689,14 +3701,14 @@ background-color: #0B0913;
     -webkit-animation: drop-131 4.138536749s 0.4641485261s infinite;
             animation: drop-131 4.138536749s 0.4641485261s infinite;
   }
-  
+
   @-webkit-keyframes drop-131 {
     100% {
       top: 110%;
       left: 14%;
     }
   }
-  
+
   @keyframes drop-131 {
     100% {
       top: 110%;
@@ -3715,14 +3727,14 @@ background-color: #0B0913;
     -webkit-animation: drop-132 4.9988043472s 0.7776158577s infinite;
             animation: drop-132 4.9988043472s 0.7776158577s infinite;
   }
-  
+
   @-webkit-keyframes drop-132 {
     100% {
       top: 110%;
       left: 5%;
     }
   }
-  
+
   @keyframes drop-132 {
     100% {
       top: 110%;
@@ -3741,14 +3753,14 @@ background-color: #0B0913;
     -webkit-animation: drop-133 4.2065520915s 0.8152149757s infinite;
             animation: drop-133 4.2065520915s 0.8152149757s infinite;
   }
-  
+
   @-webkit-keyframes drop-133 {
     100% {
       top: 110%;
       left: 74%;
     }
   }
-  
+
   @keyframes drop-133 {
     100% {
       top: 110%;
@@ -3767,14 +3779,14 @@ background-color: #0B0913;
     -webkit-animation: drop-134 4.8906972533s 0.0984945857s infinite;
             animation: drop-134 4.8906972533s 0.0984945857s infinite;
   }
-  
+
   @-webkit-keyframes drop-134 {
     100% {
       top: 110%;
       left: 30%;
     }
   }
-  
+
   @keyframes drop-134 {
     100% {
       top: 110%;
@@ -3793,14 +3805,14 @@ background-color: #0B0913;
     -webkit-animation: drop-135 4.0681592794s 0.8309228795s infinite;
             animation: drop-135 4.0681592794s 0.8309228795s infinite;
   }
-  
+
   @-webkit-keyframes drop-135 {
     100% {
       top: 110%;
       left: 88%;
     }
   }
-  
+
   @keyframes drop-135 {
     100% {
       top: 110%;
@@ -3819,14 +3831,14 @@ background-color: #0B0913;
     -webkit-animation: drop-136 4.3231442127s 0.5889149289s infinite;
             animation: drop-136 4.3231442127s 0.5889149289s infinite;
   }
-  
+
   @-webkit-keyframes drop-136 {
     100% {
       top: 110%;
       left: 61%;
     }
   }
-  
+
   @keyframes drop-136 {
     100% {
       top: 110%;
@@ -3845,14 +3857,14 @@ background-color: #0B0913;
     -webkit-animation: drop-137 4.1453649318s 0.7477752304s infinite;
             animation: drop-137 4.1453649318s 0.7477752304s infinite;
   }
-  
+
   @-webkit-keyframes drop-137 {
     100% {
       top: 110%;
       left: 48%;
     }
   }
-  
+
   @keyframes drop-137 {
     100% {
       top: 110%;
@@ -3871,14 +3883,14 @@ background-color: #0B0913;
     -webkit-animation: drop-138 4.4176883429s 0.6407576486s infinite;
             animation: drop-138 4.4176883429s 0.6407576486s infinite;
   }
-  
+
   @-webkit-keyframes drop-138 {
     100% {
       top: 110%;
       left: 114%;
     }
   }
-  
+
   @keyframes drop-138 {
     100% {
       top: 110%;
@@ -3897,14 +3909,14 @@ background-color: #0B0913;
     -webkit-animation: drop-139 4.9385663658s 0.1081919117s infinite;
             animation: drop-139 4.9385663658s 0.1081919117s infinite;
   }
-  
+
   @-webkit-keyframes drop-139 {
     100% {
       top: 110%;
       left: 59%;
     }
   }
-  
+
   @keyframes drop-139 {
     100% {
       top: 110%;
@@ -3923,14 +3935,14 @@ background-color: #0B0913;
     -webkit-animation: drop-140 4.3460587584s 0.1097462987s infinite;
             animation: drop-140 4.3460587584s 0.1097462987s infinite;
   }
-  
+
   @-webkit-keyframes drop-140 {
     100% {
       top: 110%;
       left: 35%;
     }
   }
-  
+
   @keyframes drop-140 {
     100% {
       top: 110%;
@@ -3949,14 +3961,14 @@ background-color: #0B0913;
     -webkit-animation: drop-141 4.2532126546s 0.4730310403s infinite;
             animation: drop-141 4.2532126546s 0.4730310403s infinite;
   }
-  
+
   @-webkit-keyframes drop-141 {
     100% {
       top: 110%;
       left: 48%;
     }
   }
-  
+
   @keyframes drop-141 {
     100% {
       top: 110%;
@@ -3975,14 +3987,14 @@ background-color: #0B0913;
     -webkit-animation: drop-142 4.4234820482s 0.8322636261s infinite;
             animation: drop-142 4.4234820482s 0.8322636261s infinite;
   }
-  
+
   @-webkit-keyframes drop-142 {
     100% {
       top: 110%;
       left: 22%;
     }
   }
-  
+
   @keyframes drop-142 {
     100% {
       top: 110%;
@@ -4001,14 +4013,14 @@ background-color: #0B0913;
     -webkit-animation: drop-143 4.6021759859s 0.8081198849s infinite;
             animation: drop-143 4.6021759859s 0.8081198849s infinite;
   }
-  
+
   @-webkit-keyframes drop-143 {
     100% {
       top: 110%;
       left: 88%;
     }
   }
-  
+
   @keyframes drop-143 {
     100% {
       top: 110%;
@@ -4027,14 +4039,14 @@ background-color: #0B0913;
     -webkit-animation: drop-144 4.7158338309s 0.8248879175s infinite;
             animation: drop-144 4.7158338309s 0.8248879175s infinite;
   }
-  
+
   @-webkit-keyframes drop-144 {
     100% {
       top: 110%;
       left: 45%;
     }
   }
-  
+
   @keyframes drop-144 {
     100% {
       top: 110%;
@@ -4053,14 +4065,14 @@ background-color: #0B0913;
     -webkit-animation: drop-145 4.2742946533s 0.9203990975s infinite;
             animation: drop-145 4.2742946533s 0.9203990975s infinite;
   }
-  
+
   @-webkit-keyframes drop-145 {
     100% {
       top: 110%;
       left: 83%;
     }
   }
-  
+
   @keyframes drop-145 {
     100% {
       top: 110%;
@@ -4079,14 +4091,14 @@ background-color: #0B0913;
     -webkit-animation: drop-146 4.9709734125s 0.1432131469s infinite;
             animation: drop-146 4.9709734125s 0.1432131469s infinite;
   }
-  
+
   @-webkit-keyframes drop-146 {
     100% {
       top: 110%;
       left: 30%;
     }
   }
-  
+
   @keyframes drop-146 {
     100% {
       top: 110%;
@@ -4105,14 +4117,14 @@ background-color: #0B0913;
     -webkit-animation: drop-147 4.7020007682s 0.3864369796s infinite;
             animation: drop-147 4.7020007682s 0.3864369796s infinite;
   }
-  
+
   @-webkit-keyframes drop-147 {
     100% {
       top: 110%;
       left: 16%;
     }
   }
-  
+
   @keyframes drop-147 {
     100% {
       top: 110%;
@@ -4131,14 +4143,14 @@ background-color: #0B0913;
     -webkit-animation: drop-148 4.9511135451s 0.3264316835s infinite;
             animation: drop-148 4.9511135451s 0.3264316835s infinite;
   }
-  
+
   @-webkit-keyframes drop-148 {
     100% {
       top: 110%;
       left: 84%;
     }
   }
-  
+
   @keyframes drop-148 {
     100% {
       top: 110%;
@@ -4157,14 +4169,14 @@ background-color: #0B0913;
     -webkit-animation: drop-149 4.672375507s 0.0401287782s infinite;
             animation: drop-149 4.672375507s 0.0401287782s infinite;
   }
-  
+
   @-webkit-keyframes drop-149 {
     100% {
       top: 110%;
       left: 17%;
     }
   }
-  
+
   @keyframes drop-149 {
     100% {
       top: 110%;
@@ -4183,18 +4195,17 @@ background-color: #0B0913;
     -webkit-animation: drop-150 4.7212116702s 0.8640246445s infinite;
             animation: drop-150 4.7212116702s 0.8640246445s infinite;
   }
-  
+
   @-webkit-keyframes drop-150 {
     100% {
       top: 110%;
       left: 39%;
     }
   }
-  
+
   @keyframes drop-150 {
     100% {
       top: 110%;
       left: 39%;
     }
   }
-  
