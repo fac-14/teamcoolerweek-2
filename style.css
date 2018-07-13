@@ -4,7 +4,7 @@
     font-family: Quicksand, sans-serif;
     font-weight: 400;
     font-size: 2rem;
-    text-transform: uppercase;
+    /* text-transform: uppercase; */
 }
 
 body {
@@ -18,7 +18,7 @@ footer {
 }
 
 .content {
-    background: transparent;
+  background: transparent;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -79,6 +79,7 @@ label {
     font-family: Quicksand, sans-serif;
     font-weight: 700;
     font-size: 2rem;
+    text-align: center;
 }
 
 ::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
@@ -114,6 +115,8 @@ button {
     background: transparent;
     border: none;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
 }
 
 button:hover {
@@ -123,9 +126,15 @@ button:hover {
 .checked, .delete {
     background: transparent;
     fill: white;
-    width: 1.25em;
 }
 
+.checked {
+    width: 1.12em;
+}
+
+.delete {
+    width: 1em;
+}
 .form-buttons {
     display: flex;
     justify-content: space-between;
@@ -134,7 +143,7 @@ button:hover {
 .footer-text {
     font-size: 0.75rem;
     font-family: Quicksand, sans-serif;
-    text-transform: lowercase;
+    text-align: center;
 }
 
 /* UL, LI, AND SPAN GRADIENT STYLING */
@@ -172,11 +181,13 @@ li {
     justify-content: space-between;
     flex-direction: row;
     width: 100%;
+    align-items: center;
 }
 
 .buttons-group {
     display: flex;
     background: transparent;
+    margin: 1%;
 }
 
 li:nth-child(17n + 1) {
@@ -248,20 +259,40 @@ background-color: #0B0913;
 }
 
 /* MOBILE STYLES */
-@media(min-width: 321px){
+/* @media(min-width: 321px){
     body {
         height: 100vh;
         padding: 5% 5%;
       }
+  }
  /* make type smaller - so the button text does not overflow */
-}
+
 
 /* smallest size */
-@media(min-width: 321px){
+@media(max-width: 600px){
     body {
-        height: 100vh;
-        padding: 5% 5%;
+      padding: 5% 5%;
+    }
+
+    label {
+        font-size: 1.75rem;
       }
+
+     input {
+        font-size: 1.5rem;
+        justify-content: center;
+      }
+
+      button {
+           font-size: 1.5rem;
+           padding: 2%;
+       }
+
+      span {
+          font-size: 1rem;
+          align-items: center;
+          justify-content: center;
+       }
 
 }
 
