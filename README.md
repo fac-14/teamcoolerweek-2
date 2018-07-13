@@ -1,8 +1,11 @@
-# teamcoolerweek-2
-To-do-list project 
+# Team Cooler Week 2, Electric Boogaloo - What a To-Do!
 
-TO DO: 
+![](http://www.aieg.be/images/charging.gif)
 
-ADD SWEET GIFS AND MEMES 
+### Loading awesome README.md...
 
-LINK TO PROJECT : https://fac-14.github.io/teamcoolerweek-2/
+## In the meantime, view our project!
+
+[Get your click on](https://fac-14.github.io/teamcoolerweek-2/)
+
+![](https://media.giphy.com/media/jV7HeyDzjJarC/giphy.gif)
