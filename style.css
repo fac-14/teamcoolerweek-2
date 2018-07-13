@@ -10,6 +10,7 @@
 body {
   height: 100vh;
   padding: 5% 15%;
+  background-color: #725AC1;
 }
 
 footer {
@@ -301,14 +302,22 @@ background-color: #0B0913;
 /* WEIRD SHIT - DO NOT CODE REVIEW, IT CAME FROM CODE PEN */
 
 .wrapper {
-    background-color: #725AC1;
     position: fixed;
     z-index: -1;
     height: 100vh;
     width: 100vw;
     top: 0px;
     left: 0px;
+    
+    opacity: 0;
   }
+
+  @keyframes fade-in {
+    100% {
+      opacity: 1;
+    }
+  }
+
 
   [class|="confetti"] {
     position: absolute;

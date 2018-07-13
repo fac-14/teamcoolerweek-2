@@ -53,6 +53,8 @@ var todoFunctions = {
         if (item.id === idToMark) {
           if (item.done == false) {
             item.done = true;
+            let x = document.querySelector(".wrapper");
+            x.style.animation = "fade-in 3.1s forwards";
           } else if (item.done == true) {
             item.done = false
           }
