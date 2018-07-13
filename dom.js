@@ -17,6 +17,9 @@
       var text = document.createTextNode(todo.description);
       if (todo.done == true) {
         span.className = "strike";
+      } 
+      else if (todo.done == false) {
+        span.classList.remove("strike");
       }
       span.appendChild(text);
       todoNode.appendChild(span);

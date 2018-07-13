@@ -51,10 +51,15 @@ var todoFunctions = {
       let newArr = this.cloneArrayOfObjects(todos);
       let mapArr = newArr.map(function(item) { 
         if (item.id === idToMark) {
-           item.done = true;
+          if (item.done == false) {
+            item.done = true;
+          } else if (item.done == true) {
+            item.done = false
+          }
            return item;
         } else return item;
       })
+      
       return mapArr;
     },
 
