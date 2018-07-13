@@ -70,9 +70,9 @@ test('Testing marktodo output', function(t) {
 test('Testing sort by marked done function', function(t) {
   const actual = logic.sortTodos(sortDummyArray);
   const expected = [
-    { id: -2, description: 'second todo', done: true, priority: 'now' },
     { id: -3, description: 'first todo', done: false, priority: 'today' },
-    { id: -1, description: 'third todo', done: false, priority: 'none' }
+    { id: -1, description: 'third todo', done: false, priority: 'none' },
+    { id: -2, description: 'second todo', done: true, priority: 'now' }
   ];
   t.deepEqual(actual, expected, 'Order of dones is true to false');
   t.end();
