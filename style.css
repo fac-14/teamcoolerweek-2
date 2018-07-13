@@ -61,6 +61,7 @@ h1 {
 }
 
 
+
 /* PRETTY STUFF */
 
 .sort {
@@ -4239,4 +4240,9 @@ background-color: #0B0913;
       top: 110%;
       left: 39%;
     }
+  }
+
+
+  .semantic-hide {
+    display: none;
   }
