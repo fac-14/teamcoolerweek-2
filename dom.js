@@ -17,6 +17,9 @@
       var text = document.createTextNode(todo.description);
       if (todo.done == true) {
         span.className = "strike";
+      } 
+      else if (todo.done == false) {
+        span.classList.remove("strike");
       }
       span.appendChild(text);
       todoNode.appendChild(span);
@@ -26,7 +29,11 @@
     buttonsDiv.className = "buttons-group";
     var deleteButtonNode = document.createElement('button');
     deleteButtonNode.className = "delete-button";
-    deleteButtonNode.innerHTML = "<img src=\"./img/multiply.svg\" class=\"delete\">"
+    var deleteImg = document.createElement("img");
+    deleteImg.src = "./img/multiply.svg";
+    deleteImg.className = "delete";
+    deleteButtonNode.appendChild(deleteImg);
+    //deleteButtonNode.innerHTML = "<img src=\"./img/multiply.svg\" class=\"delete\">"
     deleteButtonNode.addEventListener('click', function(event) {
       // event.preventDefault();
       var newState = todoFunctions.deleteTodo(state, todo.id);
@@ -38,7 +45,11 @@
     // add markTodo button
     var markButtonNode = document.createElement('button');
     markButtonNode.className = "mark-button";
-    markButtonNode.innerHTML = "<img src=\"./img/checked.svg\" class=\"checked\">"
+    var markImg = document.createElement("img");
+    markImg.src = "./img/checked.svg";
+    markImg.className = "checked";
+    markButtonNode.appendChild(markImg);
+    //markButtonNode.innerHTML = "<img src=\"./img/checked.svg\" class=\"checked\">"
     markButtonNode.addEventListener('click', function(event) {
       var newState = todoFunctions.markTodo(state, todo.id);
       update(newState);
