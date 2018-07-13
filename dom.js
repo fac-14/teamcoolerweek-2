@@ -58,12 +58,13 @@
       // https://developer.mozilla.org/en-US/docs/Web/Events/submit
       // what does event.preventDefault do?
       event.preventDefault();
-
-      var x = document.getElementById("text-input").value;
+      // this is redundant by the 'required' but is included just in case :)
+      var x = document.getElementById("text-input").value.trim();
       if (x == "") {
         alert("Please enter an item! :)");
-        return false;
-      };
+        return;
+      } 
+      
 
       // what is inside event.target
       // event.target ....
