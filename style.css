@@ -98,12 +98,12 @@ input[type=submit] {
 }
 
 input[type=submit]:hover {
-    background: #ACA7D7;
+    background: rgb(193, 189, 224);
 }
 
 input[type=text] {
     border: 2px solid white;
-    background-color: #ACA7D7;
+    background-color: rgb(146, 139, 206);
     padding: 2% 1%;
     margin: 5% 0%;
 }
