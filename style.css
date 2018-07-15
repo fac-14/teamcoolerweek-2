@@ -76,6 +76,98 @@ button.sort {
 
 /* FORM STYLING */
 
+label {
+    font-family: Quicksand, sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    text-align: center;
+}
+
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+    color: white;
+    opacity: 1; /* Firefox */
+}
+
+.strike {
+    text-decoration: line-through;
+}
+
+input[type=submit] {
+    font-weight: 500;
+    width: 45%;
+    background-color: #725AC1;
+    align-items: center;
+}
+
+input[type=submit]:hover {
+    background: rgb(193, 189, 224);
+}
+
+input[type=text] {
+    border: 2px solid white;
+    background-color: rgb(146, 139, 206);
+    padding: 2% 1%;
+    margin: 5% 0%;
+}
+
+/* IMAGE STYLING */
+
+button {
+    background: transparent;
+    border: none;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+}
+
+button:hover {
+    background: #ACA7D7;
+}
+
+.checked, .delete {
+    background: transparent;
+    fill: white;
+}
+
+.checked {
+    width: 1.12em;
+}
+
+.delete {
+    width: 1em;
+}
+.form-buttons {
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer-text {
+    font-size: 0.75rem;
+    font-family: Quicksand, sans-serif;
+    text-align: center;
+}
+
+/* UL, LI, AND SPAN GRADIENT STYLING */
+
+/*
+
+#0B0913
+#161226
+#221B39
+#2D244D
+#392D60
+#443673
+#4F3E87
+#5B489A
+#6651AD
+
+*/
+
+span {
+    background-color: transparent;
+    border: none;
+    font-family: Quicksand, sans-serif;
+    font-size: 2rem;
     padding: 2% 10%;
 }
 
@@ -88,7 +180,12 @@ li {
     list-style-type: none;
     display: flex;
     justify-content: space-between;
-    flex-di {
+    flex-direction: row;
+    width: 100%;
+    align-items: center;
+}
+
+.buttons-group {
     display: flex;
     background: transparent;
     margin: 1%;
