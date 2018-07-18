@@ -1,6 +1,6 @@
 <!DOCTYPE html>
-<html>
-  <head lang="en">
+<html lang="en">
+  <head>
     <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <title>List.it</title>
     <link rel="stylesheet" href="./reset.css">
@@ -10,7 +10,7 @@
   <body>
 
     <header>
-      <h1><img src="./img/listit.svg" alt="List It To Do List"></h1>
+      <h1>  <img src="./img/listit.svg" alt="List It To Do List"></h1>
     </header>
 
     <!--WE KNOW THIS IS RIDICULOUS. IT'S THE CONFETTI.-->
@@ -174,17 +174,22 @@
 
       <section id="task">
         <form id="add-todo">
+          <h2 class="semantic-hide">What do you want to get done?</h2>
           <label for="text-input">What do you want to get done?</label>
+          <h2 class="semantic-hide">Input Field</h2>
           <input type="text" name="description" value="" id="text-input" required>
           <div class="form-buttons">
+            <h2 class="semantic-hide" >Submit Button</h2>
             <input type="submit" name="submit" value="Add" id="submit">
             <!-- FOR THE LOVE OF GOD, IF ANYONE KNOWS HOW TO CENTRE THE TEXT ON A SUBMIT INPUT, PLEASE TELL US HOW-->
+            <h2 class="semantic-hide">Sort Button</h2>
             <button class="sort">Sort</button>
         </div>
         </form>
       </section>
 
       <section id="task-list">
+        <h2 class="semantic-hide">To-do list</h2>
         <div id="todo-container">
             <ul>
             </ul>
